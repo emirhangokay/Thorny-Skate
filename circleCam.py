@@ -5,10 +5,10 @@ from VehicleData import circleDistance
 
 cap = cv2.VideoCapture(0) # 0 dahili , 1 harici kamera
 
-########### El ile girilecekler ###########
+############ El ile girilecekler ############
 focal_length = 3500  # Kameranın odak uzunluğu (mm)
 real_radius = 2  # gerçek daire yarıçapı
-############################################
+#############################################
 
 ########### Filtreleme parametreleri ###########
 num_measurements = 5  # Ölçüm sayısı
