@@ -8,4 +8,4 @@ class Engine:
 class circleDistance:
     def __init__(self,distance=0,area = 5) :
         self.distance = distance
-        self.area = area # 0 merkez, 1,2,3,4 bölge , 5 null 
+        self.area = area # 0 merkez, 1,2,3,4 bölge , 5 boş 
