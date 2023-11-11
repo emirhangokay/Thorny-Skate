@@ -1,7 +1,7 @@
 import Functions
 import circleCam
 import time
-from threading import Thread
+from threading import Thread # eş zamanlı işlem
 
 engine = Functions.engine
 Functions.Functions.KeepAlive()
