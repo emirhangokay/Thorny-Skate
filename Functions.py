@@ -8,7 +8,7 @@ board.set_pin_mode_servo(engine.pin)
 
 class Functions:
     def KeepAlive():       # ilk nabız
-         for engine.speed in range(0,10): ## 22 start 32 max 90 diğer tur 32 sto
+         for engine.speed in range(0,10):
                 board.servo_write(engine.pin,engine.speed)
                 time.sleep(0.0001)
                 engine.active = True
