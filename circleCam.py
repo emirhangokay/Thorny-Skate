@@ -21,7 +21,7 @@ distanceData = circleDistance() # mesafe sınıfından nesne oluştur
 ########### Kamera Çizgileri İçin ###########
 origin_x = 320 # x koordinat ortası
 origin_y = 240 # y koordinat ortası
-square_size = 30  # kare kenar uzunluğu
+square_size = 40  # kare kenar uzunluğu
 crosshair_size = 15  # nişangah boyutu
 crosshair_thickness = 2  # nişangah kalınlığı
 ################################################

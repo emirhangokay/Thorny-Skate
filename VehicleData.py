@@ -1,7 +1,8 @@
 class Engine:
-    def __init__(self,id =0,speed=0,time=0,pin=0,active = False):
+    def __init__(self,id =0,speed=0,time=0,pin=0,angle=0,active = False):
         self.id = id
         self.speed = speed
+        self.angle = angle
         self.time = time
         self.pin = pin
         self.active = active
